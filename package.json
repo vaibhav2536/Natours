@@ -13,12 +13,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ritiksharmarj/natours.git"
+    "url": "git+https://github.com/vaibhav2536/Natours"
   },
-  "author": "Ritik Sharma",
+  "author": "Vaibhav Dinkar",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ritiksharmarj/natours/issues"
+    "url": "https://github.com/vaibhav2536/Natours/issues"
   },
   "homepage": "https://github.com/ritiksharmarj/natours#readme",
   "dependencies": {

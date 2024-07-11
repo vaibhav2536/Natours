@@ -1,7 +1,4 @@
 <h1 align="center">
-  <br>
-  <a href="https://natours-xbsh.onrender.com/"><img src="https://github.com/ritiksharmarj/natours/assets/54701022/326dd79a-8751-4d1d-883f-b302cf0461c5" alt="Natours" width="200"></a>
-  <br>
   Natours
   <br>
 </h1>
@@ -25,7 +22,7 @@
 
 ## Deployed Version
 
-Live demo (Feel free to visit) 👉 : https://natours-xbsh.onrender.com/
+Live demo (Feel free to visit) 👉 : https://natours-jzik.onrender.com
 
 ## Key Features
 
@@ -36,10 +33,6 @@ Live demo (Feel free to visit) 👉 : https://natours-xbsh.onrender.com/
 - User profile
   - Update username, profile photo, email, and password
 - Credit card payment using Stripe
-
-## Demonstration
-
-[![Natours Walkthrough](https://img.youtube.com/vi/UljiMtXeFx0/maxresdefault.jpg)](https://www.youtube.com/watch?v=UljiMtXeFx0)
 
 ## How To Use
 
@@ -76,16 +69,6 @@ Before using the API, you need to set the variables in Postman depending on your
 ```
 
 Check [Natours API Documentation](https://documenter.getpostman.com/view/8689170/SVmzvwpY?version=latest) for more info.
-
-<b> API Features: </b>
-
-Tours List 👉 https://natours-xbsh.onrender.com/api/v1/tours
-
-Tours Statistics 👉 https://natours-xbsh.onrender.com/api/v1/tours/tour-stats
-
-Get Top 5 Cheap Tours 👉 https://natours-xbsh.onrender.com/api/v1/tours/top-5-cheap
-
-Get Tours Within Radius 👉 https://natours-xbsh.onrender.com/api/v1/tours/tours-within/200/center/34.098453,-118.096327/unit/mi
 
 ## Deployment
 
