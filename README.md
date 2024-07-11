@@ -8,7 +8,6 @@
  <p align="center">
  <a href="#deployed-version">Demo</a> •
   <a href="#key-features">Key Features</a> •
-  <a href="#demonstration">Demonstration</a> •
   <a href="#update-your-profile">Update your profile</a> •
   <a href="#api-usage">API Usage</a> •
   <a href="#deployment">Deployment</a> •
