@@ -7,12 +7,12 @@ const tourSchema = new mongoose.Schema(
   {
     name: {
       type: String,
-      required: [true, 'A tour must have a name'], // specify the error that we want to be displayed when we're missing this field.
       unique: true, // we can't have two or more tour documents with the same name.
       trim: true,
       maxlength: [40, 'A tour name must have less or equal then 40 characters'],
       minlength: [10, 'A tour name must have more or equal then 10 characters'],
-      // validate: [validator.isAlpha, 'Tour name must only contain characters'],
+      required: [true, 'A tour must have a name'], // specify the error that we want to be displayed when we're missing this field.
+   // validate: [validator.isAlpha, 'Tour name must only contain characters'],
     },
     slug: String,
     duration: {
@@ -142,7 +142,7 @@ tourSchema.pre('save', function (next) {
   });
   next();
 });
-
+ 
 // QUERY MIDDLEWARE
 tourSchema.pre(/^find/, function (next) {
   this.find({ secretTour: { $ne: true } });
